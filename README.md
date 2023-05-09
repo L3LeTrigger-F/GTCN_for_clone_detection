@@ -1,6 +1,7 @@
 # 基于GTCN改编的代码克隆检测
 目前只支持python语言版本，输入数据准备：python源代码、训练集、测试集的csv格式标签对。
 思路是用GTCN获得代码对的图张量，然后将张量对导入分类模型（3层MLP），输出获得结果。
+下面是GTCN原readme文件。
 # GTCN
 
 The Implementation of paper "Toward Interpretable Graph Tensor Convolution Neural Network for Code Semantics Embedding"
